@@ -1,1 +1,1 @@
-# something-new
+# JavaScript and Python
