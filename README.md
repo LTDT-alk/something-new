@@ -1,9 +1,9 @@
-#This is experimental doc
+# This is experimental doc
 
 ## where I experiment
-### - Computer Controls with mouse && keyboard
-### - string and manipulation
-### - The use of Canvas and openGl API (including libraries)
+ - Computer Controls with mouse && keyboard
+ - string and manipulation
+ - The use of Canvas and openGl API (including libraries)
 
 #progress
 ## - game && intereactive software development
