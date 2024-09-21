@@ -5,11 +5,11 @@
  - string and manipulation
  - The use of Canvas and openGl API (including libraries)
 
-# progress
+## progress
  - game && intereactive software development
  - other coding lanaguage other than javascript,HTML 5, CSS
 
-# fies / foldiers
+## fies / foldiers
  Storage
  - contain old projects
  main.js, index.html, && styles.css (outside files)
