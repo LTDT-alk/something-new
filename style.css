@@ -5,3 +5,6 @@ body {
 p {
     color: white
 }
+canvas {
+    background-color: white;
+}
