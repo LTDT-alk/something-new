@@ -1,4 +1,3 @@
-
 function elem(id){
     return document.querySelector(id);
 }
