@@ -1,5 +1,5 @@
 // code 1 -- stringPlay
-
+/*
 //character list
 const char = [];
 
@@ -169,4 +169,31 @@ const a1 = canvas.getContext("2d");
     a1.closePath();
     a1.fill();
 */
-// code 4 -- hexagon maker
+// code 4 -- drawing on a mouse
+/*
+const para = elem("#text");
+const canvas = elem('#canvas');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight /2 ;
+
+const ctx = canvas.getContext('2d');
+
+function draw(x,y,x0 = 0,y0 = 0){
+    ctx.beginPath();
+    ctx.moveTo(x0, y0)
+    ctx.lineTo(x,y);
+    ctx.stroke();}
+
+addEventListener("mousemove", (e) => {
+    para.innerHTML = `${e.clientX},${e.clientY}`
+    if (e.shiftKey)
+    draw(e.clientX, e.clientY, x1, y1);
+    x1 = e.clientX;
+    y1 = e.clientY;
+})
+
+addEventListener("keydown",(event) => {
+    para.innerHTML += ` ${event.code}`
+})
+*/
+
